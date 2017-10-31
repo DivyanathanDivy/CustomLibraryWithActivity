@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="customlibrary.full.com.chatmodule">
+
+    <application>
+        <activity android:name=".ui.EmployeeListActivity" />
+        <activity android:name=".ui.EmployeeDetailsActivity" />
+        <activity android:name=".ui.TextingActivity"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools">
+   <TextView
+       android:layout_marginTop="10dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="ID"/>
+    <TextView
+        android:paddingLeft="10dp"
+        tools:text="1"
+        android:id="@+id/emp_id_tv"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center_vertical"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"/>
+    <TextView
+        android:paddingLeft="10dp"
+        tools:text="Divy"
+        android:id="@+id/name_tv"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center_vertical" />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Age"/>
+    <TextView
+        android:paddingLeft="10dp"
+        tools:text="25"
+        android:id="@+id/age_tv"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center_vertical" />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Address"/>
+    <TextView
+        android:paddingLeft="10dp"
+        tools:text="Chennai"
+        android:id="@+id/address_tv"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center_vertical" />
+
+</LinearLayout>
